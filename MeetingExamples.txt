@@ -1,0 +1,13 @@
+tested expressions
+
+1+1
+1+1+1+1+1+1
+2*2
+if(1>0): f else: 0
+if(-1>0): f else: 0
+if(1==0): f else: 0
+if(1<0): f else: 0
+(\f.f)[a,b]
+[(\f.f),(\f.e)]a
+(\f.f)if(IRREDUCIBLE>0)
+(\f.f)[2+2,2*2]
