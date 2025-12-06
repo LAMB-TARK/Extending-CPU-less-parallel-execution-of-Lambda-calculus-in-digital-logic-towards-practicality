@@ -10,7 +10,7 @@ This README document will show the steps required to simulate an example executi
 For a video demonstration of how to load, execute and read an example execution click this link. [(https://www.youtube.com/watch?v=ch1fyDx1kn0)]
 
 # How To Load And Execute
-First open logisim-evolution.jar. In the top left of the application select File --> Open and find and select the LambdaCalculusV1.circ file downloaded from this github. 
+First open logisim-evolution.jar. In the top left of the application select File --> Open and find and select the LambdaCalculusV3.circ file downloaded from this github. 
 
 ![First Step](https://github.com/user-attachments/assets/e63e638c-a126-49e2-aef9-630e8d2472aa)
 
