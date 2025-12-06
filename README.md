@@ -6,3 +6,26 @@ This repository contains a demonstrational implementation of CPU-less parralel e
 3. Multiple TestBench.txt
 
 This README document will show the steps required to simulate an example execution and read it's output. Note another LambdaCalculusV2.circ file exsists, certain lambda expressions will require its more advanced "NewNodeTracker" componenet to properly reduce, However it can be more intesive to simulate and is not required to execute the test benches provided. LambdaCalculusV2.circ can be found at [(https://github.com/LAMB-TARK/CPU-less-parallel-execution-of-Lambda-calculus-in-digital-logic)] but will be incapable of simulating advanced expressions nameley Lists and Arithmetic.
+
+For a video demonstration of how to load, execute and read an example execution click this link. [(https://www.youtube.com/watch?v=ch1fyDx1kn0)]
+
+# How To Load And Execute
+First open logisim-evolution.jar. In the top left of the application select File --> Open and find and select the LambdaCalculusV1.circ file downloaded from this github. 
+
+![First Step](https://github.com/user-attachments/assets/e63e638c-a126-49e2-aef9-630e8d2472aa)
+
+Once you have opened LambdaCalculus.circ select the left most RAM component highlighted in red. Then in the component properties menu select contents (click to edit) to open the contents of the Hex Editor.
+
+![SecondStep](https://github.com/user-attachments/assets/2b2a1fd8-a902-4dd3-a0b6-fdc3e25337c9)
+
+In the Hex Editor select Open and open ExampleExecution.txt. Alternativley you may wish to enter your own expression which you may do by opening a different .txt document or manually changing memory locations wihtin the hex editor.
+
+![ThirdStep](https://github.com/user-attachments/assets/d725b99c-3e86-4177-8a2d-1550e4e366ea)
+
+Finally select Simulate and ensure Simulation Enable is ticked. Then either begin simulation by pressing Ctrl+T to manually trigger a clock tick or tick the box next to Ticks Enabled to cause a clock pulse every so many Hz definable in the tick frequency pop out menu. (Note higher frequencies may cause simulation errors depending on the power of your device)
+
+![FourthStep](https://github.com/user-attachments/assets/d8ecc54a-0106-448d-bc97-6753911c87fd)
+
+After the simulation has been complete the newley reduced expression can be found in the rightmost RAM component.
+
+![FithStep](https://github.com/user-attachments/assets/cced908e-b3db-438a-83c9-96bcb4661838)
